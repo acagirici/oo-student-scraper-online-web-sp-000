@@ -24,6 +24,7 @@ class Student
     self.send("blog=", attributes_hash[:blog])
     self.send("profile_quote=", attributes_hash[:profile_quote])
     self.send("bio=", attributes_hash[:bio])
+    self.send("profile_url=", attributes_hash[:profile_url])
   end
 
   def self.all
